@@ -33,14 +33,16 @@ A aplicação utiliza uma tabela de usuários com os seguintes campos:
 
 ## 🚀 Como Executar
 
+0. Rode o index.html na pasta frontend
+
 1. Clone o repositório
 ```bash
-git clone [URL_DO_SEU_REPOSITORIO]
+git clone https://github.com/hick12/cadastro-usuarios-api-java/
 ```
 
 2. Entre no diretório do projeto
 ```bash
-cd projeto
+cd cadastro-usuarios-api-java
 ```
 
 3. Execute o projeto com Maven
@@ -60,6 +62,11 @@ A aplicação estará disponível em `http://localhost:8080`
 
 ```
 projeto/
+├── frontend/
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
+│
 ├── src/
 │   ├── main/
 │   │   ├── java/
@@ -72,11 +79,13 @@ projeto/
 │   │   │                   └── model/
 │   │   └── resources/
 │   └── test/
+│
 └── pom.xml
+
 ```
 
 
 
 ---
 
-⌨️ com ❤️ por [Henrique Palorca]
+⌨️ com ❤️ por Henrique Palorca
